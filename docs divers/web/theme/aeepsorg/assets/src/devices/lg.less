@@ -1,0 +1,32 @@
+.navbar {
+    &.navbar-default {
+        .container{
+            width : @container-large-desktop!important;
+            padding-right : calc(@grid-gutter-width/2)!important;
+            .navbar-nav {
+                >li {
+                    &[class*='border-color'] {
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.listing-products {
+    .item-product {
+        .block-text{
+            padding-left : calc(@grid-gutter-width/2);
+        }
+    }
+}
+
+
+footer{
+    .nav-footer {
+        .pull-right {
+            float : right!important;
+        }
+    }    
+}    

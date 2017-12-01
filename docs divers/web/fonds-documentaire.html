@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- SEO Meta -->
+    <title>Fonds documentaire AEEPS</title>
+    <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+    <meta property="og:title" content="Accueil AEEPS">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://www.aeeps.org/">
+    <meta property="og:image" content="http://www.aeeps.org/theme/aeepsorg/assets/dist/img/logo.png" />
+
+    <!-- Defaults metas -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Main styles -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700" rel="stylesheet">
+    <link href="theme/aeepsorg/assets/dist/css/styles.css" rel="stylesheet" media="all">
+    <link href="theme/aeepsorg/vendors/jvectormap/jquery-jvectormap-2.0.3.css" rel="stylesheet" media="all">
+    <link href="theme/aeepsorg/vendors/swiper-3.4.2/css/swiper.min.css" rel="stylesheet" media="all">
+    <link href="theme/aeepsorg/vendors/select2/select2.min.css" rel="stylesheet" media="all">
+
+    <!-- Compatibilities -->
+    <!--[if lt IE 9]>
+            <script src="theme/aeepsorg/assets/dist/js/html5shiv.min.js"></script>
+        <![endif]-->
+</head>
+
+<body class="fond-documentaire ">
+    <!-- Main header -->
+    <header>
+        <div id="cookies-bar" class="color6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-11 col-xs-12">
+                        <p>En poursuivant votre navigation sur ce site, vous acceptez l'utilisation de cookies nous permettant
+                            d'améliorer vos futures visites. <a href="#">Plus d'informations >></a></p>
+                    </div>
+                    <div class="col-md-1 col-xs-12 ">
+                        <a href="#" class="btn btn-cookies pull-right">OK</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-header">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-md-7 col-xs-12">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="theme/aeepsorg/assets/dist/img/logo_h.png" class="img-responsive" alt="AE-EPS - Association pour l'Enseignement de l'Education Physique et Sportive" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-xs-12">
+                        <div class="form-search">
+                            <form method="GET" action="#">
+                                <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa fa-search"></i></span>
+                                    <input type="text" class="form-control" placeholder="Recherche">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default " type="button">OK</button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Navbar mobile -->
+    <div class="hidden-lg hidden-md menu-mobile container">
+        <div class="row icons">
+            <div class="col-xs-6 text-center account">
+                <a href="#" title="Mon compte"><i class="fa fa-user fa-2x"></i><br>Mon compte</a>
+            </div>
+            <div class="col-xs-6 text-center cart">
+                <a href="#" title="Mon panier">
+                    <i class="fa fa-shopping-bag fa-2x"></i><span class="number">4</span><br>Mon panier
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <nav class="navbar navbar-default hidden-sm">
+                <div class="navbar-header">
+                    <img src="theme/aeepsorg/assets/dist/img/logo_white.png" class="img-responsive" alt="AE-EPS - Association pour l'Enseignement de l'Education Physique et Sportive">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-mobile" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse" id="menu-mobile">
+                    <ul class="nav navbar-nav">
+                        <li class="active border-color3 color3">
+                            <a href="#">AE-EPS</a>
+                        </li>
+                        <li class="border-color4 color4">
+                            <a href="#" >Biennale</a>
+                        </li>
+                        <li class="border-color5 color5">
+                            <a href="#" >Groupes ressources</a>
+                        </li>
+                        <li class="border-color1 color1">
+                            <a href="#" >Actualités</a>
+                        </li>
+                        <li class="border-color6 color6">
+                            <a href="#" >Fonds documentaires</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar PC -->
+    <nav class="navbar navbar-default hidden-xs">
+        <div class="container">
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active border-color3 color3 mega-dropdown">
+                       <a href="#" class="dropdown-toggle" >AE-EPS </a>   
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <ul class="container list-unstyled">
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Qui sommes nous ?</a></li>
+                                        <li><a href="#">Nos structures</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Nos initiatives</a></li>
+                                        <li><a href="#">Notre histoire</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Adhésions et abonnements</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="border-color4 color4 mega-dropdown">
+                        <a href="#" class="dropdown-toggle">Biennale</a>  <!-- data-toggle="dropdown"-->
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <ul class="container list-unstyled">
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Qui sommes nous ?</a></li>
+                                        <li><a href="#">Nos structures</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Nos initiatives</a></li>
+                                        <li><a href="#">Notre histoire</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Adhésions et abonnements</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="border-color2 color2 mega-dropdown">
+                        <a href="#" class="dropdown-toggle">Régionales</a>  <!-- data-toggle="dropdown"-->
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <ul class="container list-unstyled">
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Qui sommes nous ?</a></li>
+                                        <li><a href="#">Nos structures</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Nos initiatives</a></li>
+                                        <li><a href="#">Notre histoire</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Adhésions et abonnements</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="border-color5 color5 mega-dropdown">
+                        <a href="#" class="dropdown-toggle">Groupes ressources</a>  <!-- data-toggle="dropdown"-->
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <ul class="container list-unstyled">
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Qui sommes nous ?</a></li>
+                                        <li><a href="#">Nos structures</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Nos initiatives</a></li>
+                                        <li><a href="#">Notre histoire</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Adhésions et abonnements</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="border-color1 color1 mega-dropdown">
+                        <a href="#" class="dropdown-toggle">Actualités</a>  <!-- data-toggle="dropdown"-->
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <ul class="container list-unstyled">
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Qui sommes nous ?</a></li>
+                                        <li><a href="#">Nos structures</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Nos initiatives</a></li>
+                                        <li><a href="#">Notre histoire</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Adhésions et abonnements</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="border-color6 color6 mega-dropdown">
+                        <a href="#" class="dropdown-toggle">Fonds documentaires</a>  <!-- data-toggle="dropdown"-->
+                        <div class="dropdown-menu mega-dropdown-menu">
+                            <ul class="container list-unstyled">
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Qui sommes nous ?</a></li>
+                                        <li><a href="#">Nos structures</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Nos initiatives</a></li>
+                                        <li><a href="#">Notre histoire</a></li>
+                                    </ul>
+                                </li>
+                                <li class="col-md-3">
+                                    <ul>
+                                        <li><a href="#">Adhésions et abonnements</a></li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right hidden-sm">
+                    <li class="background-color3" id="my-account"><a href="#" title="Mon compte"><i class="fa fa-user fa-2x"></i></a></li>
+                    <li class="background-color6" id="my-cart">
+                        <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="dropdow-toggle" title="Mon panier">
+                            <i class="fa fa-shopping-bag fa-2x"></i><span class="number">4</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-cart" role="menu">
+                            <li>
+                                <span class="item">
+                                    <span class="item-left">
+                                        <img src="https://loremflickr.com/50/50/sport" alt="" />
+                                        <span class="item-info">
+                                            <span class="title">Revue "Enseigner l'EPS" n° 272</span>
+                                <span>23€</span>
+                                </span>
+                                </span>
+                                <span class="item-right">
+                                        <button class="btn btn-xs btn-danger pull-right">x</button>
+                                    </span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="item">
+                                    <span class="item-left">
+                                        <img src="https://loremflickr.com/50/50/sport" alt="" />
+                                        <span class="item-info">
+                                            <span class="title">Revue "Enseigner l'EPS" n° 272</span>
+                                <span>23€</span>
+                                </span>
+                                </span>
+                                <span class="item-right">
+                                        <button class="btn btn-xs btn-danger pull-right">x</button>
+                                    </span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="item">
+                                    <span class="item-left">
+                                        <img src="https://loremflickr.com/50/50/sport" alt="" />
+                                        <span class="item-info">
+                                            <span class="title">Revue "Enseigner l'EPS" n° 272</span>
+                                <span>23€</span>
+                                </span>
+                                </span>
+                                <span class="item-right">
+                                        <button class="btn btn-xs btn-danger pull-right">x</button>
+                                    </span>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="item">
+                                    <span class="item-left">
+                                        <img src="https://loremflickr.com/50/50/sport" alt="" />
+                                        <span class="item-info">
+                                            <span class="title">Revue "Enseigner l'EPS" n° 272</span>
+                                <span>23€</span>
+                                </span>
+                                </span>
+                                <span class="item-right">
+                                        <button class="btn btn-xs btn-danger pull-right">x</button>
+                                    </span>
+                                </span>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="text-center"><button class="show-basket text-center btn btn-color6" href="#">Voir le panier</button></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <div class="main-nav">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12">
+                    <div class="pull-left">
+                        <div class="breadcrumbs">
+                            <ul class="list-unstyled list-inline">
+                                <li><a href="#">Accueil</a></li>
+                                <li class="font-color6">Fonds documentaire</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container main-content">
+        <div class="row">
+            <div class="col-md-9 col-md-push-3">
+                <section class="block-section">
+                    <div class="text-grey">
+                        <p>
+                            <strong>Optimiser votre navigation avec "Recherche doc"</strong><br>
+                            Plusieurs centaines d’articles du fonds documentaire sont à votre disposition issus :
+                        </p>
+                        <ul>
+                            <li>des revues "Enseigner l'EPS" et "Hyper-EPS" </li>
+                            <li>de chapitres d'ouvrages édités par l'AE-EPS.</li>
+                            <li>d'articles inédits composant la "documentation libre"</li>
+                        </ul>
+                        <p>
+                            Pour vous permettre d’exploiter au mieux cette richesse et trouver les articles qui correspondent à vos centres d’intérêt, le moteur de recherche "Recherche doc" est à votre disposition. Ce dernier vous permettra de ressortir des articles selon des items retenus en fonction des programmes de l’Education Nationale, en particulier selon les compétences propres, les compétences méthodologiques et sociales et les différentes APSA.
+                        </p>
+                    </div>
+                </section>
+                <section class="block-section color6">
+                    <header class="block-section-header">
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12">
+                                <h2>Vient de paraître</h2>
+                            </div>
+                        </div>
+                    </header>
+                    <div class="block-section-content listing-products">
+                        <div class="row">
+                            <div class="item-product col-sm-6 col-xs-12">
+                                <div class="row">
+                                    <div class="col-md-5 col-xs-12">
+                                        <div class="feature-image-product">
+                                            <a href="#">
+                                                <img src="https://loremflickr.com/135/190/sport" alt="Produit 1" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-xs-12">
+                                        <div class="title-product">
+                                            <a href="#">Repères pour Apprendre et parcours de Formation</a>
+                                        </div>
+                                        <div class="desc-product">
+                                            <p>Enseigner et évaluer par Indicateurs : LE "NAGEURS" R. Fayaubost</p>
+                                        </div>
+                                        <div class="cta">
+                                            <form method="POST" action="#">
+                                                <input type="submit" name="send" class="btn btn-color6 btn-cart" value="Ajouter au panier" />
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-product col-sm-6 col-xs-12">
+                                <div class="row">
+                                    <div class="col-md-5 col-xs-12">
+                                        <div class="feature-image-product">
+                                            <a href="#">
+                                                <img src="https://loremflickr.com/135/190/sport" alt="Produit 1" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-xs-12">
+                                        <div class="title-product">
+                                            <a href="#">Repères pour Apprendre et parcours de Formation</a>
+                                        </div>
+                                        <div class="desc-product">
+                                            <p>Enseigner et évaluer par Indicateurs : LE "NAGEURS" R. Fayaubost</p>
+                                        </div>
+                                        <div class="cta">
+                                            <form method="POST" action="#">
+                                                <input type="submit" name="send" class="btn btn-color6 btn-cart" value="Ajouter au panier" />
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-product col-sm-6 col-xs-12">
+                                <div class="row">
+                                    <div class="col-md-5 col-xs-12">
+                                        <div class="feature-image-product">
+                                            <a href="#">
+                                                <img src="https://loremflickr.com/135/190/sport" alt="Produit 1" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-xs-12">
+                                        <div class="title-product">
+                                            <a href="#">Repères pour Apprendre et parcours de Formation</a>
+                                        </div>
+                                        <div class="desc-product">
+                                            <p>Enseigner et évaluer par Indicateurs : LE "NAGEURS" R. Fayaubost</p>
+                                        </div>
+                                        <div class="cta">
+                                            <form method="POST" action="#">
+                                                <input type="submit" name="send" class="btn btn-color6 btn-cart" value="Ajouter au panier" />
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-product col-sm-6 col-xs-12">
+                                <div class="row">
+                                    <div class="col-md-5 col-xs-12">
+                                        <div class="feature-image-product">
+                                            <a href="#">
+                                                <img src="https://loremflickr.com/135/190/sport" alt="Produit 1" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-xs-12">
+                                        <div class="title-product">
+                                            <a href="#">Repères pour Apprendre et parcours de Formation</a>
+                                        </div>
+                                        <div class="desc-product">
+                                            <p>Enseigner et évaluer par Indicateurs : LE "NAGEURS" R. Fayaubost</p>
+                                        </div>
+                                        <div class="cta">
+                                            <form method="POST" action="#">
+                                                <input type="submit" name="send" class="btn btn-color6 btn-cart" value="Ajouter au panier" />
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-product col-sm-6 col-xs-12">
+                                <div class="row">
+                                    <div class="col-md-5 col-xs-12">
+                                        <div class="feature-image-product">
+                                            <a href="#">
+                                                <img src="https://loremflickr.com/135/190/sport" alt="Produit 1" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-xs-12">
+                                        <div class="title-product">
+                                            <a href="#">Repères pour Apprendre et parcours de Formation</a>
+                                        </div>
+                                        <div class="desc-product">
+                                            <p>Enseigner et évaluer par Indicateurs : LE "NAGEURS" R. Fayaubost</p>
+                                        </div>
+                                        <div class="cta">
+                                            <form method="POST" action="#">
+                                                <input type="submit" name="send" class="btn btn-color6 btn-cart" value="Ajouter au panier" />
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-product col-sm-6 col-xs-12">
+                                <div class="row">
+                                    <div class="col-md-5 col-xs-12">
+                                        <div class="feature-image-product">
+                                            <a href="#">
+                                                <img src="https://loremflickr.com/135/190/sport" alt="Produit 1" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-xs-12">
+                                        <div class="title-product">
+                                            <a href="#">Repères pour Apprendre et parcours de Formation</a>
+                                        </div>
+                                        <div class="desc-product">
+                                            <p>Enseigner et évaluer par Indicateurs : LE "NAGEURS" R. Fayaubost</p>
+                                        </div>
+                                        <div class="cta">
+                                            <form method="POST" action="#">
+                                                <input type="submit" name="send" class="btn btn-color6 btn-cart" value="Ajouter au panier" />
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-product col-sm-6 col-xs-12">
+                                <div class="row">
+                                    <div class="col-md-5 col-xs-12">
+                                        <div class="feature-image-product">
+                                            <a href="#">
+                                                <img src="https://loremflickr.com/135/190/sport" alt="Produit 1" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-xs-12">
+                                        <div class="title-product">
+                                            <a href="#">Repères pour Apprendre et parcours de Formation</a>
+                                        </div>
+                                        <div class="desc-product">
+                                            <p>Enseigner et évaluer par Indicateurs : LE "NAGEURS" R. Fayaubost</p>
+                                        </div>
+                                        <div class="cta">
+                                            <form method="POST" action="#">
+                                                <input type="submit" name="send" class="btn btn-color6 btn-cart" value="Ajouter au panier" />
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-product col-sm-6 col-xs-12">
+                                <div class="row">
+                                    <div class="col-md-5 col-xs-12">
+                                        <div class="feature-image-product">
+                                            <a href="#">
+                                                <img src="https://loremflickr.com/135/190/sport" alt="Produit 1" class="img-responsive" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-7 col-xs-12">
+                                        <div class="title-product">
+                                            <a href="#">Repères pour Apprendre et parcours de Formation</a>
+                                        </div>
+                                        <div class="desc-product">
+                                            <p>Enseigner et évaluer par Indicateurs : LE "NAGEURS" R. Fayaubost</p>
+                                        </div>
+                                        <div class="cta">
+                                            <form method="POST" action="#">
+                                                <input type="submit" name="send" class="btn btn-color6 btn-cart" value="Ajouter au panier" />
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <aside class="col-md-3 col-md-pull-9 ">
+                <div class="block color6" id="block-search">
+                    <div class="header ">
+                        <span class="title">Recherche</span>
+                    </div>
+                    <div class="actus">
+                        <form method="GET" action="#" class="form">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Recherche par mots clés">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-color6" type="submit"><i class="fa fa-search"></i></button>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <select name="compétences" class="form-control select-multiple" multiple="multiple" data-placeholder="Compétences propres">
+                                    <option></option>
+                                    <option value="CP1">CP1</option>
+                                    <option value="CP2">CP2</option>
+                                    <option value="CP3">CP3</option>
+                                    <option value="CP4">CP4</option>
+                                    <option value="CP5">CP5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="competences[]" class="form-control select-multiple" multiple="multiple" data-placeholder="Compétences Méthodo. Sociales">
+                                    <option></option>
+                                    <option value="csm1__sengager_lucidement">1-S'engager lucidement</option>
+                                    <option value="cms2_tenir_roles_socieux">2-Tenir rôles sociaux</option>
+                                    <option value="cms3_dmarches_pour_apprendre">3-Démarches pour apprendre</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="competences" class="form-control select-multiple" multiple="multiple" data-placeholder="APSA">
+                                    <option></option>
+                                    <option value="acrosport">Acrosport</option>
+                                    <option value="aerobic">Aérobic</option>
+                                    <option value="appn">APPN</option>
+                                    <option value="arts_du_cirque">Arts du cirque</option>
+                                    <option value="athltisme">Athlétisme</option>
+                                    <option value="badminton">Badminton</option>
+                                    <option value="basketball">Basket-ball</option>
+                                    <option value="boxe">Boxe</option>
+                                    <option value="canoe_kayak">Canoë-Kayak</option>
+                                    <option value="course_dorientation">Course d'orientation</option>
+                                    <option value="course_de_haies">Course de haies</option>
+                                    <option value="course_de_montagne">Course de montagne</option>
+                                    <option value="course_en_duredemifond">Course en durée.Demi-fond</option>
+                                    <option value="danse">Danse</option>
+                                    <option value="disque">Disque</option>
+                                    <option value="escalade">Escalade</option>
+                                    <option value="fitness">Fitness</option>
+                                    <option value="foot_ball">Foot ball</option>
+                                    <option value="golf">Golf</option>
+                                    <option value="gymnastique_rythmique">Gymnastique rythmique</option>
+                                    <option value="gymnastique_sportive">Gymnastique sportive</option>
+                                    <option value="handball">Handball</option>
+                                    <option value="javelot">Javelot</option>
+                                    <option value="jeux_traditionnels">Jeux traditionnels</option>
+                                    <option value="judo">Judo</option>
+                                    <option value="lancers">Lancers</option>
+                                    <option value="lutte">Lutte</option>
+                                    <option value="marche">Marche</option>
+                                    <option value="multibond">Multi-bond</option>
+                                    <option value="musculation">Musculation</option>
+                                    <option value="natation_">Natation </option>
+                                    <option value="pentabond">Pentabond</option>
+                                    <option value="poids">Poids</option>
+                                    <option value="relais_vitesse">Relais vitesse</option>
+                                    <option value="rugby">Rugby</option>
+                                    <option value="saut_en_hauteur">Saut en hauteur</option>
+                                    <option value="ski">Ski</option>
+                                    <option value="sports_collectifs">Sports collectifs</option>
+                                    <option value="sports_de_combat">Sports de combat</option>
+                                    <option value="sport_de_raquette">Sports de raquette</option>
+                                    <option value="step">Step</option>
+                                    <option value="tchouk_ball">Tchoukball</option>
+                                    <option value="tennis">Tennis</option>
+                                    <option value="tennis_de_table">Tennis de table</option>
+                                    <option value="tir__larc">Tir à l'arc</option>
+                                    <option value="trampoline">Trampoline</option>
+                                    <option value="triple_saut">Triple saut</option>
+                                    <option value="ultimate">Ultimate</option>
+                                    <option value="volleyball">Volley-ball</option>
+                                    <option value="v_t_t">V T T</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="competences" class="form-control select-multiple" multiple="multiple" data-placeholder="Niveaux">
+                                    <option></option>
+                                    <option value="maternelle">Maternelle</option>
+                                    <option value="primaire">Primaire</option>
+                                    <option value="collge">Collège</option>
+                                    <option value="lyce">Lycée</option>
+                                    <option value="universit">Université</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="competences" class="form-control select-multiple" multiple="multiple" data-placeholder="Espaces">
+                                    <option></option>
+                                    <option value="association_sportive">Association sportive</option>
+                                    <option value="eps">EPS</option>
+                                    <option value="hda">HDA</option>
+                                    <option value="interdisciplinarit">Interdisciplinarité</option>
+                                    <option value="international">International</option>
+                                    <option value="socle_commun">Socle commun</option>
+                                    <option value="vido">Vidéo</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="competences" class="form-control select-multiple" multiple="multiple" data-placeholder="Thématiques">
+                                    <option></option>
+                                    <option value="" class="empty-title">Thèmatiques</option>
+                                    <option value="apprentissage">Apprentissage</option>
+                                    <option value="arbitrage">Arbitrage</option>
+                                    <option value="bien_etre">Bien-être</option>
+                                    <option value="citoyennete">Citoyenneté</option>
+                                    <option value="contenus">Contenus</option>
+                                    <option value="didactique">Didactique</option>
+                                    <option value="differenciation">Différenciation</option>
+                                    <option value="echauffement">Echauffement</option>
+                                    <option value="emotions">Emotions</option>
+                                    <option value="enjeux_ducatifs">Enjeux éducatifs</option>
+                                    <option value="enseignant_deps">Enseignant d'EPS</option>
+                                    <option value="evaluation">Évaluation</option>
+                                    <option value="formation_professionnelle">Formation professionnelle</option>
+                                    <option value="genre">Genre</option>
+                                    <option value="gestion_de_classe">Gestion de classe</option>
+                                    <option value="handicap">Handicap</option>
+                                    <option value="histoire">Histoire</option>
+                                    <option value="inaptitude">Inaptitude</option>
+                                    <option value="methodologie">Méthodologie</option>
+                                    <option value="mixite">Mixité</option>
+                                    <option value="motivation">Motivation</option>
+                                    <option value="pedagogie">Pédagogie</option>
+                                    <option value="prevention">Prévention</option>
+                                    <option value="plaisir">Plaisir</option>
+                                    <option value="programme">Programme</option>
+                                    <option value="projets">Projets</option>
+                                    <option value="ressenti">Ressenti</option>
+                                    <option value="rythmes_scolaires">Rythmes scolaires</option>
+                                    <option value="sante">Santé</option>
+                                    <option value="securite">Sécurité</option>
+                                    <option value="sport">Sport</option>
+                                    <option value="stress">Stress</option>
+                                    <option value="tice">TICE</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="cp_publication" class="form-control select-multiple" multiple="multiple" data-placeholder="Publications">
+                                    <option></option>
+                                    <option value="cahiers_du_cedreps">Cahiers du CEDREPS</option>
+                                    <option value="dossier_enseigner_leps">Dossier 'Enseigner l'EPS'</option>
+                                    <option value="actes_journes_debeyre">Actes Journées Debeyre</option>
+                                    <option value="revue_enseigner_leps">Revue </option>
+                                    <option value="documentation_libre__vido">Documentation libre - Vidéo</option>
+                                    <option value="documentation_libre">Documentation libre</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <select name="cp_publication" class="form-control select-multiple" multiple="multiple" data-placeholder="Auteurs">
+                                    <option></option>
+                                    <option value="auteur">Auteur 1</option>
+                                    <option value="auteur">Auteur 2</option>
+                                    <option value="auteur">Auteur 3</option>
+                                    <option value="auteur">Auteur 4</option>
+                                    <option value="auteur">Auteur 5</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group text-center">
+                                <input type="submit" name="valid" value="Recherche" class="btn btn-color6 btn-md" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="block">
+                    <ul class="list-color6 more">
+                        <li><a href="#">Revue</a></li>
+                        <li><a href="#">Ouvrages</a></li>
+                        <li><a href="#">Documentation libre</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+        <div class="primary-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12">
+                        <div class="title">
+                            <p>Nous suivre <span class="font-color3">#AEEPS</span></p>
+                        </div>
+                        <div class="content">
+                            <div class="social text-center">
+                                <a href="#" class="btn btn-rounded btn-color3 facebook" target="_blank"><i class="fa fa-2x fa-facebook"></i></a>
+                                <a href="#" class="btn btn-rounded btn-color3 twitter" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
+                                <a href="#" class="btn btn-rounded btn-color3 rss" target="_blank"><i class="fa fa-2x fa-rss"></i></a>
+                            </div>
+                            <div class="text-center">
+                                <form action="#" class="newsletter">
+                                    <label>Newsletter</label>
+                                    <div class="input-group">
+                                        <input type="text" value="" class="form-control" placeholder="Saisissez votre adresse e-mail" />
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-color3" type="button">OK</button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="title">
+                            <p>Nos Formules</p>
+                        </div>
+                        <div class="content">
+                            <ul class="list-color3 formules">
+                                <li><a href="#">Adhérer</a></li>
+                                <li><a href="#">Abonnement web</a></li>
+                                <li><a href="#">Abonnement revue</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12">
+                        <div class="title">
+                            <p>Revues</p>
+                        </div>
+                        <div class="content">
+                            <div class="feature-image">
+
+                                <img src="https://loremflickr.com/175/245/sport" class="img-responsive" alt="Revue" />
+                                <div class="link">
+                                    <a href="#" class="left-arrow-color3">Télécharger</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="secondary-footer">
+            <div class="container">
+                <div class="row">
+                    <div class='col-md-12 text-center'>
+                        <a href="#"><img src="https://loremflickr.com/170/150/sport" alt="carre" class="img-responsive" /></a>
+                        <a href="#"><img src="https://loremflickr.com/730/150/sport" alt="rectangle" class="img-responsive" /></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class='col-md-12 text-center'>
+                        <p>&nbsp;</p>
+                        <a href="#"><img src="https://loremflickr.com/175/150/sport" alt="carre" /></a>
+                        <a href="#"><img src="https://loremflickr.com/175/150/sport" alt="carre" /></a>
+                        <a href="#"><img src="https://loremflickr.com/175/150/sport" alt="carre" /></a>
+                        <a href="#"><img src="https://loremflickr.com/175/150/sport" alt="carre" /></a>
+                        <a href="#"><img src="https://loremflickr.com/175/150/sport" alt="carre" /></a>
+                        <a href="#"><img src="https://loremflickr.com/175/150/sport" alt="carre" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-footer">
+            <div class="container">
+                <div class="pull-left">
+                    <p>Tous droits réservés © AE-EPS</p>
+                </div>
+                <div class="pull-right">
+                    <ul class="list-inline">
+                        <li><a href="#">Plan du site</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Mentions légales</a></li>
+                        <li><a href="#">Adhérer</a></li>
+                        <li><a href="#">Abonnement web</a></li>
+                        <li><a href="#">Abonnement revue</a></li>
+                        <li><a href="#">Réalisation FB Digital</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Hidden html (modal, toggle) -->
+
+    <!-- Secondary scripts -->
+    <script type="text/javascript" src="theme/aeepsorg/assets/dist/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="theme/aeepsorg/assets/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="theme/aeepsorg/assets/dist/js/fixScroll.js"></script>
+    <script type="text/javascript" src="theme/aeepsorg/assets/dist/js/regionaleLvl2.js"></script>
+    <script type="text/javascript" src="theme/aeepsorg/vendors/jvectormap/jquery-jvectormap-2.0.3.min.js"></script>
+    <script type="text/javascript" src="theme/aeepsorg/vendors/swiper-3.4.2/js/swiper.min.js"></script>
+    <script type="text/javascript" src="theme/aeepsorg/vendors/select2/select2.min.js"></script>
+    <script type="text/javascript" src="theme/aeepsorg/vendors/select2/fr.js"></script>
+
+    <!-- Custom scripts -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var mySwiper = new Swiper('.swiper-container', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+                setWrapperSize: true,
+                slidesPerView: 3,
+                spaceBetween: 30,
+                grabCursor: true,
+                autoplay: 2500,
+                autoplayDisableOnInteraction: false,
+                breakpoints: {
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 30
+                    },
+                    640: {
+                        slidesPerView: 1,
+                        spaceBetween: 20
+                    }
+                }
+            });
+
+
+            $('.carousel').carousel({
+                interval: 8000
+            });
+
+            $('.select-multiple').select2({
+                placeholder: function() {
+                    $(this).data('placeholder');
+                },
+                language: "fr"
+            });
+
+        });
+    </script>
+</body>
+
+</html>

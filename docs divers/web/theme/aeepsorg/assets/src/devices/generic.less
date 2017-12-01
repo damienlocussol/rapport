@@ -1,0 +1,281 @@
+/**
+Fichier regroupant toutes les classes génériques dédiées à l'application
+**/
+
+.font-color1 {
+    color: @color1;
+}
+.font-color2 {
+    color: @color2;
+}
+.font-color3 {
+    color: @color3;
+}
+.font-color4 {
+    color: @color4;
+}
+.font-color5 {
+    color: @color5;
+}
+.font-color6 {
+    color: @color6;
+}
+
+.btn-color1 {
+    background-color: @color1;
+    color: #fff;
+    &:hover, &:active, &:focus, &.active {
+        background-color: darken(@color1, 25%);
+        color: #fff;
+    }
+}
+.btn-color2 {
+    background-color: @color2;
+    color: #fff;
+    &:hover, &:active, &:focus, &.active {
+        background-color: darken(@color2, 25%);
+        color: #fff;
+    }
+}
+.btn-color3 {
+    background-color: @color3;
+    color: #fff;
+    &:hover, &:active, &:focus, &.active {
+        background-color: lighten(@color3, 25%);
+        color: #fff;
+    }
+}
+.btn-color4 {
+    background-color: @color4;
+    color: #fff;
+    &:hover, &:active, &:focus, &.active {
+        background-color: darken(@color4, 25%);
+        color: #fff;
+    }
+}
+.btn-color5 {
+    background-color: @color5;
+    color: #fff;
+    &:hover, &:active, &:focus, &.active {
+        background-color: darken(@color5, 25%);
+        color: #fff;
+    }
+}
+.btn-color6 {
+    background-color: @color6;
+    color: #fff;
+    &:hover, &:active, &:focus, &.active {
+        background-color: darken(@color6, 25%);
+        color: #fff;
+    }
+}
+
+
+.background-color1 {
+    background-color: @color1;
+}
+.background-color2 {
+    background-color: @color2;
+}
+.background-color3 {
+    background-color: @color3;
+}
+.background-color4 {
+    background-color: @color4;
+}
+.background-color5 {
+    background-color: @color5;
+}
+.background-color6 {
+    background-color: @color6;
+}
+
+ul[class*='list-color'] {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    li {
+        padding-left: 1em;
+        text-indent : -1em;
+        color: #000000;
+        padding-bottom: 5px;
+        a {
+            color: #000000;
+        }
+    }
+    li:before {
+        content: ">";
+        font-weight: bold;
+        padding-right: 15px;
+        font-size: 22px;
+        position: relative;
+        top: 1px;
+    }
+}
+
+.list-color1 {
+    li:before {
+        color: @color1;
+    }
+}
+.list-color2 {
+    li:before {
+        color: @color2;
+    }
+}
+.list-color3 {
+    li:before {
+        color: @color3;
+    }
+}
+.list-color4 {
+    li:before {
+        color: @color4;
+    }
+}
+.list-color5 {
+    li:before {
+        color: @color5;
+    }
+}
+.list-color6 {
+    li:before {
+        color: @color6;
+    }
+}
+
+[class*=left-arrow-color] {
+    color: #000000;
+    font-weight: bold;
+    &:before {
+        content: ">";
+        padding-right: 15px;
+        font-size: 22px;
+        font-weight: bold;
+        position: relative;
+        top: 2px;
+    }
+    &:hover {
+        text-decoration: none;
+        color: #000000;
+    }
+}
+.left-arrow-color1 {
+    &:before {
+        color: @color1;
+    }
+}
+.left-arrow-color2 {
+    &:before {
+        color: @color2;
+    }
+}
+.left-arrow-color3 {
+    &:before {
+        color: @color3;
+    }
+}
+.left-arrow-color4 {
+    &:before {
+        color: @color4;
+    }
+}
+.left-arrow-color5 {
+    &:before {
+        color: @color5;
+    }
+}
+.left-arrow-color6 {
+    &:before {
+        color: @color6;
+    }
+}
+
+
+
+.color1 {
+    .feature-image,
+    .feature-image-product{
+        &:hover,
+        &:active,
+        &:focus {
+            .feature-image-overlay {
+                background-color: fade(@color1, 60%);
+            }
+        }
+    }
+}
+
+.color2 {
+    .feature-image,
+    .feature-image-product {
+        &:hover,
+        &:active,
+        &:focus {
+            .feature-image-overlay {
+                background-color: fade(@color2, 60%);
+            }
+        }
+    }
+}
+
+.color3 {
+    .feature-image,
+    .feature-image-product {
+        &:hover,
+        &:active,
+        &:focus {
+            .feature-image-overlay {
+                background-color: fade(@color3, 60%);
+            }
+        }
+    }
+}
+
+.color4 {
+    .feature-image,
+    .feature-image-product {
+        &:hover,
+        &:active,
+        &:focus {
+            .feature-image-overlay {
+                background-color: fade(@color4, 60%);
+            }
+        }
+    }
+}
+
+.color5 {
+    .feature-image,
+    .feature-image-product {
+        &:hover,
+        &:active,
+        &:focus {
+            .feature-image-overlay {
+                background-color: fade(@color5, 60%);
+            }
+        }
+    }
+}
+
+.color6 {
+    .feature-image,
+    .feature-image-product {
+        &:hover,
+        &:active,
+        &:focus {
+            .feature-image-overlay {
+                background-color: fade(@color6, 60%);
+            }
+        }
+    }
+}
+
+.spacing-v-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.spacing-v-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
