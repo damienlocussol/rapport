@@ -1,0 +1,60 @@
+damien_blog_homepage:
+    path:       /
+    defaults: { _controller: DamienBlogBundle:Default:login }
+
+admin:
+    path:       /admin
+    defaults : { _controller: DamienBlogBundle:Default:home}
+
+admin_login:
+    path:       /admin/login
+    defaults: { _controller: DamienBlogBundle:Default:login}
+    
+admin_login_check:
+    path:       /admin/login_check
+    
+admin_logout:
+    path:       /admin/logout
+    
+#listactus:
+#    path:       /admin/listactus
+#    defaults : { _controller: DamienBlogBundle:Default:listactus}
+#    
+#addactu:
+#    path:       /admin/addactu
+#    defaults : { _controller: DamienBlogBundle:Default:addactu}
+    
+    
+admin_list_category:
+    path:       /admin/category/list
+    defaults : { _controller: DamienBlogBundle:Category:list}
+    
+admin_add_category:
+    path:       /admin/category/add
+    defaults : { _controller: DamienBlogBundle:Category:add}
+    
+admin_edit_category:
+    path:       /admin/category/edit/{id}
+    defaults : { _controller: DamienBlogBundle:Category:edit, page: 1 }
+    requirements:
+        id: \d+
+        
+#admin_trashed_category:
+#    path:       /admin/category/trashed/{id}
+#    defaults : { _controller: DamienBlogBundle:Category:trashed }
+#    requirements:
+#        id: \d+
+#        
+#admin_delete_category:
+#    path:       /admin/category/delete
+#    defaults : { _controller: DamienBlogBundle:Category:delete }
+
+    
+    
+#listmedia:
+#    path:       /admin/listmedia
+#    defaults : { _controller: DamienBlogBundle:Default:listmedia}
+#    
+#addmedia:
+#    path:       /admin/addmedia
+#    defaults : { _controller: DamienBlogBundle:Default:addmedia}
